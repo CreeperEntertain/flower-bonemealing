@@ -83,7 +83,11 @@
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:mod:blacklist": [
+      "Blocks.WITHER_ROSE"
+    ]
+  },
   "language_map": {
     "en_us": {}
   },
@@ -95,15 +99,18 @@
     "modid": "flower_bonemealing",
     "modName": "Flower Bonemealing",
     "version": "1.0.0",
-    "author": "Lûn, MCreator",
+    "description": "A simple mod that allows you to spread small flowers by right-clicking them with bone meal.",
+    "author": "CEntertain",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.centertain.flowerbonemealing"
   },
   "mcreatorVersion": 202400118518

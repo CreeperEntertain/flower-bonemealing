@@ -32,7 +32,7 @@ public class BonemealUsageProcedure {
 		double xSpread = 0;
 		double ySpread = 0;
 		double zSpread = 0;
-		if (blockstate.is(BlockTags.create(new ResourceLocation("minecraft:small_flowers")))) {
+		if (blockstate.is(BlockTags.create(new ResourceLocation("minecraft:small_flowers"))) && !blockstate.is(BlockTags.create(new ResourceLocation("flower_bonemealing:blacklist")))) {
 			if (event != null && event.hasResult()) {
 				event.setResult(Event.Result.ALLOW);
 			}
