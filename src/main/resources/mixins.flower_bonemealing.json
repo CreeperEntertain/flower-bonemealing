@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.centertain.flowerbonemealing.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.flower_bonemealing.refmap.json",
+  "mixins": [],
+  "client": [],
+  "minVersion": "0.8"
+}

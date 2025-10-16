@@ -1,0 +1,110 @@
+{
+  "mod_elements": [
+    {
+      "name": "BonemealUsage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_usage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/centertain/flowerbonemealing/procedures/BonemealUsageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPlacer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_placer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/centertain/flowerbonemealing/procedures/FlowerPlacerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpreadRange",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spread_range",
+      "metadata": {
+        "files": [
+          "src/main/java/net/centertain/flowerbonemealing/configuration/SpreadRangeConfiguration.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flower_bonemealing",
+    "modName": "Flower Bonemealing",
+    "version": "1.0.0",
+    "author": "Lûn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.centertain.flowerbonemealing"
+  },
+  "mcreatorVersion": 202400118518
+}

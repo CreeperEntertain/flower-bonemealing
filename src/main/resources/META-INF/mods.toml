@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="flower_bonemealing"
+version="1.0.0"
+displayName="Flower Bonemealing"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="CEntertain"
+description="A simple mod that allows you to spread small flowers by right-clicking them with bone meal."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.flower_bonemealing]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

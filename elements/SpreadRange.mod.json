@@ -1,0 +1,88 @@
+{
+  "_fv": 60,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Spread Range",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "X Spread",
+            "varname": "x_spread",
+            "enablecomment": false,
+            "stringlist": []
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Y Spread",
+            "varname": "y_spread",
+            "enablecomment": false,
+            "stringlist": []
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Z Spread",
+            "varname": "z_spread",
+            "enablecomment": false,
+            "stringlist": []
+          }
+        ]
+      },
+      {
+        "category": "Success Rate",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.05,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Percentage",
+            "varname": "percentage",
+            "enablecomment": false,
+            "stringlist": []
+          }
+        ]
+      }
+    ],
+    "file": "Bonemealing Config",
+    "configType": 0
+  }
+}
